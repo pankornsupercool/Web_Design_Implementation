@@ -1,16 +1,21 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <script>
+            function Myfunction(){
+                document.getElementById("demo").innerHTML = "Bang! It's a magic."
+            }
+        </script>
+
         <title>Stlying Field</title>
         <h1>Recall The Basic Web Development</h1>
-        <link rel="stylesheet" href="styleSheet.css">
+        <link rel="stylesheet" href="/style/styleSheet.css">
+        
     </head>
     <body>
-        <button>Find Your Style</button>
+        <button type="button" onclick="Myfunction()">Find Your Style</button>
         <div>
-            <p>Black and White</p>
-            <p id = "id1">White and Black</p>
-            <p>I complete the target list today. Yayy!</p>
+            <p id="demo">Black and White</p>
         </div>
     </body>
 </html>
